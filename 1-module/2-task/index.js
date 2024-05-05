@@ -11,8 +11,11 @@ function print(text) {
  */
 function isValid(name) {
 
-  if(name == null || name.length >= 4 || name.includes(" "))
-  return true;
+  if (name === null || name.length < 4 || !name.includes(" ")) {
+    return true;
+  } else {
+    return false;
+  }
 
 }
 
