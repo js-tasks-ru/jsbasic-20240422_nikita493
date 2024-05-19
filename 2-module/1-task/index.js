@@ -3,7 +3,7 @@ function sumSalary(salaries) {
 
   for (let key in salaries) {
 
-    if (typeof salaries[key] === 'number'&& !isNaN(salaries[key]) && isFinite(salaries[key])) {
+    if (typeof salaries[key] === 'number' && !isNaN(salaries[key]) && isFinite(salaries[key])) {
       sum += salaries[key];
 
     }
